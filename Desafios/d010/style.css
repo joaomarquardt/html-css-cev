@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&family=Shadows+Into+Light&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #b7ddad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #257531;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-attachment: fixed;
+    background-color: var(--cor1);
+}
+
+header {
+    padding: 10px;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    font-family: var(--fonte-destaque);
+}
+
+#apresentacao-site {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.frase-apresentacao {
+    padding: 5px 0px 20px 0px;
+}
+
+nav > a {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+nav > a:hover {
+    width: 100%;
+    background-color: #a8d397b6;
+    border-radius: 5px;
+}
+
+
+
+
+
+#titulo-principal, .titulo-secundario {
+    font-family: 'Android';
+    color: #2e833b;
+}
+
+.titulo-secundario {
+    background-image: linear-gradient(to right, #a1dd92, #ffffff);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+}
+
+main > .foto-droid {
+    padding: 50px 0px 50px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.link-texto {
+    background-color: #a1dd92;
+    padding: 4px;
+}
+
+main > .video {
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #257531;
+}
+
+.imagem-centralizada{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.links {
+    width: 100%;
+    background-color: rgba(153, 182, 147, 0.788);
+    border-radius: 5px;
+}
+
+.links > h3 {
+    background-color: #257531;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.links > p {
+    padding: 5px;
+}
+
+
+footer {
+    margin: auto;
+    background-color: #257531;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    color: white;
+}

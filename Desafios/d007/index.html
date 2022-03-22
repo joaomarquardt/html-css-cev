@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bode-icon.ico" type="image/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Aumente o tamanho da tela para que possa ter a melhor experiência</p>
+    <picture>
+        <source media="(max-width: 610px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 900px)" srcset="imagens/foto-m.png" type="image/png">  <!-- 582 px e 345px-->
+        <img src="imagens/foto-g.png" alt="Foto cortada de um elefante">
+    </picture>
+</body>
+</html>
